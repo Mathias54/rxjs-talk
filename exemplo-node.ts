@@ -7,7 +7,6 @@ const unlink = promisify(fs.unlink);
 const rmdir = promisify(fs.rmdir);
 
 const main = async () => {
-
     const removerDiretorio = async (diretorio) => {
         const itens = await readdir(diretorio);
         for await (const item of itens) {
@@ -21,7 +20,6 @@ const main = async () => {
         }
         await rmdir(diretorio);
     };
-
     await removerDiretorio(`${process.cwd()}/diretorio-descartavel`);
 };
 
