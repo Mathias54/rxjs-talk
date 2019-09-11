@@ -1,0 +1,12 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "object-curly-spacing": [true, "always"],
+        "quotemark": false
+    },
+    "rulesDirectory": []
+}

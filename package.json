@@ -1,0 +1,22 @@
+{
+  "name": "rxjs-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "init": "./node_modules/ts-node/dist/bin.js init.ts",
+    "exemplo-node": "./node_modules/ts-node/dist/bin.js exemplo-node.ts",
+    "exemplo-rxjs": "./node_modules/ts-node/dist/bin.js exemplo-rxjs.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.7.4",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.6.2"
+  },
+  "devDependencies": {
+    "ts-node": "^8.3.0",
+    "tslint": "^5.20.0"
+  }
+}
