@@ -19,12 +19,10 @@ const main = async () => {
                 await unlink(path);
             }
         }
-        rmdir(diretorio);
+        await rmdir(diretorio);
     };
 
     await removerDiretorio(`${process.cwd()}/diretorio-descartavel`);
 };
 
-// main();
-
-rmdir(`${process.cwd()}/diretorio-descartavel`);
+main();
